@@ -1,0 +1,17 @@
+name: pyiron-demonstration
+channels:
+- conda-forge
+dependencies:
+- jupyterlab
+- pyiron_base
+- pyiron_continuum
+- pyiron_atomistics
+- pyiron_gpl
+- fenics =2019.1.0
+- matplotlib
+- mshr =2019.1.0
+- panel =0.12.6
+- pyiron-data >=0.0.17
+- pyvista
+- scipy
+- seaborn
