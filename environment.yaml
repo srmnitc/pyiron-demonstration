@@ -2,6 +2,7 @@ name: pyiron-demonstration
 channels:
 - conda-forge
 dependencies:
+- python=3.9
 - jupyterlab
 - pyiron_base
 - pyiron_continuum
@@ -9,7 +10,7 @@ dependencies:
 - pyiron_gpl
 - fenics =2019.1.0
 - matplotlib
-- mshr =2019.1.0
+- mshr=2019.1.0=*_4
 - panel =0.12.6
 - pyiron-data >=0.0.17
 - pyvista
