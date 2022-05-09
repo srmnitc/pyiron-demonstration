@@ -1,12 +1,12 @@
-name: pyiron-demonstration2
+name: pyiron-demonstration
 channels:
   - conda-forge
 dependencies:
   - python=3.9
-  - ase
-  - coveralls
-  - coverage
-  - codacy-coverage
+  - pyiron_base
+  - pyiron_atomistics
+  - pyiron_continuum
+  - pyiron_experimental
   - damask-mesh
   - damask-grid
   - damask =3.0.0a5
@@ -15,7 +15,6 @@ dependencies:
   - matplotlib
   - mshr =2019.1.0
   - numpy
-  - pyiron
   - pyiron-data >=0.0.17
   - python-damask
   - pyvista
@@ -23,5 +22,4 @@ dependencies:
   - seaborn
   - superlu_dist=6.2.0=*_4
   - scikit-image
-  - papermill
   - jupyterlab
